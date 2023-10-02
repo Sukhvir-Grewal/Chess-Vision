@@ -350,6 +350,7 @@ function startButtonListener() {
                     }, 1000);
 
                     setTimeout(() => {
+                        timer.style.color = "white";
                         clearStreakContainer();
                         UnClearContainer();
                     }, 1000);
