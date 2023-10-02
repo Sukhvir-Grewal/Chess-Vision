@@ -1,9 +1,11 @@
+@import url("./phone.css");
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 * {
     margin: 0;
     padding: 0;
-} 
+}
 body {
     background-color: #31302d;
     font-family: "Montserrat", sans-serif;
@@ -348,8 +350,6 @@ input[type="checkbox"]:checked::after {
 }
 
 .after-start-end {
-    /* background-color: red; */
-    /* height: 100%; */
     width: 430px;
     margin: 40px auto 0 auto;
     display: flex;
@@ -359,7 +359,6 @@ input[type="checkbox"]:checked::after {
 .streak-icons {
     height: 45px;
     width: 20px;
-    /* border: 1px solid black; */
     margin: 4.359px;
     font-size: small;
     font-weight: 500;
@@ -422,38 +421,4 @@ input[type="checkbox"]:checked::after {
     rotate: 45deg;
 }
 
-.blink {
-    opacity: 0;
-    animation: blink 1s linear;
-}
 
-.fade {
-    opacity: 0;
-    animation: fade 1.5s ease;
-}
-
-@keyframes fade {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
-}
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.hidden {
-    display: none;
-    cursor: pointer;
-}
