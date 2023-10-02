@@ -9,7 +9,9 @@
 body {
     background-color: #31302d;
     font-family: "Montserrat", sans-serif;
-    overflow-x: hidden;
+    /* overflow: hidden; */
+    /* touch-action: manipulation; */
+
 }
 .main-container {
     width: 100vw;
