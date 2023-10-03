@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="phones.css" />
         <link rel="stylesheet" href="style.css" />
         <link
             rel="stylesheet"
@@ -27,7 +27,7 @@
             cursor: pointer;
         }
     </style>
-    <body></body>
+    <body>
         <div class="main-container">
             <div class="container">
                 <div value="a8" class="box even">
@@ -138,15 +138,15 @@
                 <!-- Section after pressing start -->
                 <div class="after-start-top hidden">
                     <div class="box-before-number"></div>
-                    <span class="random-number-for-right-top"></span>
+                    <span class="random-number-for-right-top">h3</span>
                 </div>
                 <div class="sidebar-container hidden">
-                    <img src="./images/myImg.png" alt="" />
-                    <span
-                        class="current-score"
-                        style="width: 230px; font-size: 30px; color: white"
-                        >0</span
-                    >
+                    <img
+                        id="profile-pic"
+                        class="myImg-after-start"
+                        src="./images/myImg.png"
+                    />
+                    <span class="current-score">0</span>
                     <div class="timer-container">
                         <div class="clock"><div class="clock-stick"></div></div>
                         <span class="time">0:00</span>
@@ -159,13 +159,26 @@
                     <div class="top-round-section"></div>
                 </div>
                 <div class="middle-content">
-                    <p><b>Vision</b></p>
+                    <p class="vision-font"><b>Vision</b></p>
                     <img
                         class="vision"
                         src="./images/visionLogo.png"
                         alt="visionLogo"
                     /><br />
-                    <img src="./images/myImg.png" alt="visionLogo" />
+                    <label class="profileChanger">
+                        <img
+                            id="profile-pic"
+                            class="myImg"
+                            src="./images/myImg.png"
+                            style="cursor: pointer;"
+                        />
+                    </label>
+                        <input
+                            style="display: none"
+                            type="file"
+                            accept="image/jpeg, image/png, image/jpg"
+                            id="input-file"
+                        />
                     <p class="personal-best">PERSONAL BEST</p>
                     <span class="current-score-main"></span>
                 </div>
@@ -173,30 +186,14 @@
                 <div class="end-section">
                     <div class="game-mode-setting">
                         <div class="training-mode">
-                            <p
-                                style="
-                                    font-size: 13px;
-                                    margin-bottom: 5px;
-                                    text-align: left;
-                                "
-                            >
-                                Training Mode
-                            </p>
+                            <p class="training-text">Training Mode</p>
                             <select id="trainingModes">
                                 <option value="Coordinates">Coordinates</option>
                             </select>
                         </div>
 
                         <div class="color">
-                            <p
-                                style="
-                                    font-size: 13px;
-                                    margin-bottom: 5px;
-                                    text-align: left;
-                                "
-                            >
-                                Color
-                            </p>
+                            <p class="color-text">Color</p>
                             <select id="color">
                                 <option value="White">White</option>
                                 <option value="Black">Black</option>
@@ -205,13 +202,7 @@
                     </div>
                     <div class="checkBox-container">
                         <input type="checkbox" class="checkbox" />
-                        <span
-                            style="
-                                color: lightgray;
-                                font-size: 13px;
-                                margin-left: 5px;
-                            "
-                            >Show Coordinates</span
+                        <span class="show-coordinates">Show Coordinates</span
                         ><br />
                     </div>
                     <button class="start-underneath"></button>

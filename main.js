@@ -7,12 +7,15 @@ var RandomBox = document.querySelector(".RandomBox");
 var checkbox = document.querySelector(".checkbox");
 var toggleHidden = document.querySelectorAll(".toggle-hidden");
 var threeTwoOne = document.querySelector(".three-two-one");
+var numbers = document.querySelectorAll(".top-right");
+var letters = document.querySelectorAll(".bottom-Right");
 var randomNumberForRightTop = document.querySelector(
     ".random-number-for-right-top"
 );
 var currentScoreInDiv = document.querySelector(".current-score");
 var currentScoreInMainDiv = document.querySelector(".current-score-main");
 var timeUp = document.querySelector(".timeUp");
+var color = document.querySelector("#color");
 
 // Audio Files
 var countdown = document.querySelector("#countdown");
@@ -129,6 +132,26 @@ var rightSideBoxes = [7, 15, 23, 31, 39, 47, 55, 63];
 `;
 }
 
+
+document.querySelector('.profileChanger').addEventListener('click', () => {
+    const inputFile = document.getElementById('input-file'); // Get the file input element
+    const profilePic = document.querySelectorAll('#profile-pic'); // Get the profile picture element
+  
+    // Trigger the file input when the label is clicked
+    inputFile.click();
+  
+    // Listen for changes in the file input
+    inputFile.onchange = () => {
+      if (inputFile.files.length > 0) {
+        // Set the src attribute of the profile picture to the selected file
+        profilePic.forEach((profilePic)=>{
+            profilePic.src = URL.createObjectURL(inputFile.files[0]);
+        })
+      }
+    };
+  });
+  
+
 currentScoreInMainDiv.innerHTML = currentScore;
 // This code is for coloring the game board------
 odd.forEach((odd) => {
@@ -140,6 +163,28 @@ even.forEach((even) => {
     even.style.color = "#779954";
 });
 // ----------------------------------------------
+
+// This will start at the timer for 30 seconds
+start.addEventListener("click", startButtonListener);
+color.addEventListener("change", () => {
+    const selectedOption = color.options[color.selectedIndex];
+    const selectedValue = selectedOption.value;
+    if (selectedValue === "White" ) {
+        toggleNumberAndLetter();
+        document.querySelector(".box-before-number").style.backgroundColor = "white"
+        document.querySelector(".box-before-number").style.border = "3px solid lightgray"
+        document.querySelector(".three-two-one").style.color = "white"
+        document.querySelector(".three-two-one").style.textShadow = "1px 1px 5px black"
+        document.querySelector(".timeUp").src = "./images/timesUp.png"
+    }else{
+        toggleNumberAndLetter();
+        document.querySelector(".box-before-number").style.backgroundColor = "black"
+        document.querySelector(".box-before-number").style.border = "4px solid gray"
+        document.querySelector(".three-two-one").style.color = "black"
+        document.querySelector(".three-two-one").style.textShadow = "1px 1px 5px white"
+        document.querySelector(".timeUp").src = "./images/timeUpBandW.png"
+    }
+});
 
 // By clicking on checkBox this block of code will
 // remove all the letters and numbers from the boxes
@@ -155,9 +200,6 @@ checkbox.addEventListener("click", () => {
     }
     checkboxCounter += 1;
 });
-
-// This will start at the timer for 30 seconds
-start.addEventListener("click", startButtonListener);
 
 // This portion will get the random value to be shown on the board
 boxes.forEach((box, index) => {
@@ -225,6 +267,10 @@ function appendStreak(box) {
             document.querySelector(".after-start-end");
         prevHtmlForEndContainer.innerHTML += streakTick;
         var allStreakIcons = document.querySelectorAll(".streak-icons");
+        console.log(allStreakIcons)
+        if(allStreakIcons.length === 41){
+            allStreakIcons[0].parentNode.removeChild(allStreakIcons[0])
+        }
 
         allStreakIcons[allStreakIcons.length - 1].querySelector(
             "span"
@@ -237,7 +283,10 @@ function appendStreak(box) {
             document.querySelector(".after-start-end");
         prevHtmlForEndContainer.innerHTML += streakCross;
         var allStreakIcons = document.querySelectorAll(".streak-icons");
-
+        console.log(allStreakIcons)
+        if(allStreakIcons.length === 41){
+            allStreakIcons[0].parentNode.removeChild(allStreakIcons[0])
+        }
         allStreakIcons[allStreakIcons.length - 1].querySelector(
             "span"
         ).innerHTML = randomBoardNumbers.string;
@@ -286,6 +335,23 @@ function clearContainer() {
 function clearStreakContainer() {
     document.querySelector(".after-start-end").innerHTML = "";
     document.querySelector(".after-start-end").classList.add("hidden");
+}
+
+function toggleNumberAndLetter() {
+    const reverseNumbers = Array.from(numbers)
+        .map((element) => element.innerHTML)
+        .reverse();
+    const reverseLetters = Array.from(letters)
+        .map((element) => element.innerHTML)
+        .reverse();
+    numbers.forEach((number, index) => {
+        if (index < reverseNumbers.length)
+            number.innerHTML = reverseNumbers[index];
+    });
+    letters.forEach((letter, index) => {
+        if (index < reverseLetters.length)
+            letter.innerHTML = reverseLetters[index];
+    });
 }
 
 function startButtonListener() {

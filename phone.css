@@ -1,44 +1,485 @@
-@media (max-width :1200px) {
-    .container {
-        display: flex;
-        width: 600px;
-        height: 600px;
-        flex-wrap: wrap;
-        border-radius: 1%;
-        overflow: hidden;
-    }
-    .container2 {
-        height: 600px;
-        width: 600px;
-        background-color: #262522;
-        border-radius: 1%;
-        overflow: hidden;
-        margin-top: 30px;
-    }
-}
-
 /* For apple phones */
-@media (max-width :430px ) {
+@media (max-width: 500px) {
+    body {
+        background-color: #31302d;
+        font-family: "Montserrat", sans-serif;
+        overflow-x: hidden;
+        /* touch-action: manipulation;/ */
+        height: 100vh;
+        width: 100vw;
+        transform: scale(0.7);
+        transform-origin: 0 0;
+    }
+    .main-container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 185px;
+    }
     .container {
         display: flex;
-        width: 100vw;
-        height: 400px;
+        width: 600px;
+        height: 600px;
         flex-wrap: wrap;
-        justify-content: center;
         border-radius: 1%;
         overflow: hidden;
     }
+
     .container2 {
-        height: 600px;
+        height: 800px;
         width: 600px;
         background-color: #262522;
         border-radius: 1%;
         overflow: hidden;
-        margin-top: 30px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .outer-top-round-section {
+        height: 80px;
+        background-color: #21201d;
+    }
+    .top-round-section {
+        height: 100px;
+        width: 100%;
+        background-color: #21201d;
+        border-radius: 50%;
+        position: relative;
+        top: 30px;
     }
     .box {
-        height: 50px;
-        width: 50px;
+        height: 75px;
+        width: 75px;
         position: relative;
+        font-size: x-large;
+    }
+
+    .corner {
+        position: relative;
+    }
+
+    .bottom-Right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0 5px 3px 0px;
+    }
+
+    .top-right {
+        font-weight: 400;
+        margin: 5px 0 0 4px;
+    }
+
+    .end-section {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 280px;
+        background-color: #21201d;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .training-text,
+    .color-text {
+        font-size: 25px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    .middle-content {
+        text-align: center;
+        height: 325px;
+        width: 100%;
+        color: white;
+        background-color: #262522;
+        background-color: transparent;
+        position: relative;
+        bottom: 80px;
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .vision-font {
+        font-size: 50px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .vision {
+        margin-bottom: 50px;
+        border-radius: 1.5%;
+        height: 120px;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .myImg {
+        height: 120px;
+        border-radius: 1.5%;
+        position: relative;
+        bottom: 60px;
+    }
+
+
+    .personal-best {
+        margin-top: 5px;
+        font-size: 15px;
+        color: gray;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .current-score-main {
+        font-size: 50px;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .game-mode-setting {
+        display: flex;
+        color: white;
+    }
+
+    select {
+        width: 260px;
+        height: 50px;
+        background-color: #383734;
+        color: white;
+        border-radius: 5%;
+        border: 1px solid #4d4c47;
+        font-family: Arial;
+        font-size: 20px;
+    }
+    select:hover {
+        border: 1px solid white;
+    }
+
+    .training-mode {
+        margin-right: 20px;
+        height: 80px;
+    }
+
+    input[type="checkbox"] {
+        appearance: none;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15%;
+        background-color: rgb(163, 163, 163);
+    }
+
+    input[type="checkbox"]::after {
+        content: "\f00c";
+        font-family: "font Awesome 5 free";
+        font-weight: 900;
+        font-size: 18px;
+        border: none;
+        outline: none;
+    }
+    input[type="checkbox"]:hover {
+        background-color: lightgray;
+    }
+
+    input[type="checkbox"]:checked {
+        background-color: #21201d;
+        border: 1px solid white;
+    }
+    input[type="checkbox"]:checked::after {
+        display: none;
+    }
+
+    .checkBox-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .show-coordinates {
+        color: lightgray;
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .start-underneath {
+        width: 100%;
+        height: 70px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background-color: #779954;
+        position: relative;
+        top: 25px;
+    }
+
+    .start {
+        width: 100%;
+        height: 75px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background-color: #8eb453;
+        position: relative;
+        bottom: 60px;
+        font-size: 40px;
+        color: white;
+        font-weight: 900;
+        cursor: pointer;
+    }
+
+    .start:hover {
+        background-color: #aad16f;
+    }
+
+    .after-start-top {
+        height: 110px;
+        width: 100%;
+        background-color: rgb(228, 227, 227);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-before-number {
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        border: 3px solid lightgray;
+        border-radius: 6px;
+    }
+
+    .sidebar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-top: 30px;
+    }
+    .timer-container {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        font-size: 25px;
+        width: 110px;
+    }
+
+    .clock {
+        height: 40px;
+        width: 40px;
+        background-color: transparent;
+        border: 2px solid lightgray;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .clock-stick {
+        width: 8px;
+        height: 2px;
+        background-color: lightgray;
+        position: relative;
+        right: 4px;
+        transform-origin: right center;
+    }
+
+    .time {
+        height: 30px;
+        width: 55px;
+        font-size: xx-large;
+        position: relative;
+        bottom: 5px;
+    }
+    .three-two-one-container {
+        height: 190px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 1215px;
+        left: 170px;
+        opacity: 1;
+        text-align: center;
+        pointer-events: none;
+    }
+    .three-two-one {
+        font-size: 150px;
+        color: white;
+        text-shadow: 1px 1px 5px black;
+    }
+    .timeUp {
+        height: 190px;
+        width: 190px;
+        display: none;
+    }
+
+    .random-number-for-right-top {
+        font-size: xx-large;
+        margin-left: 5px;
+        font-weight: bolder;
+    }
+
+    .wrong-answer {
+        height: 30px;
+        width: 30px;
+        background-color: red;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 60px;
+        left: 60px;
+        z-index: 1;
+    }
+
+    .line-1 {
+        height: 4px;
+        width: 25px;
+        background-color: white;
+        position: relative;
+        left: 2px;
+        transform-origin: middle center;
+        rotate: 45deg;
+    }
+    .line-2 {
+        height: 4px;
+        width: 25px;
+        background-color: white;
+        rotate: 90deg;
+    }
+    .right-answer {
+        height: 30px;
+        width: 30px;
+        background-color: #9cc96f;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 60px;
+        left: 60px;
+        z-index: 1;
+    }
+
+    .right-line-1 {
+        height: 4px;
+        width: 35px;
+        background-color: white;
+        position: relative;
+        top: 2px;
+        left: 7px;
+        transform-origin: middle center;
+        rotate: -45deg;
+    }
+    .right-line-2 {
+        height: 4px;
+        width: 20px;
+        background-color: white;
+        position: relative;
+        top: 5px;
+        right: 16px;
+        transform-origin: middle end;
+        rotate: 45deg;
+    }
+
+    .after-start-end {
+        width: 430px;
+        margin: 40px auto 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .streak-icons {
+        height: 90px;
+        width: 40px;
+        margin: 5.8px;
+        font-size: x-large;
+        font-weight: 500;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    .steak-cross-icon {
+        width: 100%;
+        height: 30px;
+        background-color: red;
+        border-radius: 2px;
+    }
+
+    .steak-cross-icon-line-1 {
+        height: 4px;
+        width: 25px;
+        background-color: white;
+        position: relative;
+        top: 12px;
+        left: 8px;
+        transform-origin: middle center;
+        rotate: 45deg;
+    }
+    .steak-cross-icon-line-2 {
+        height: 4px;
+        width: 25px;
+        background-color: white;
+        rotate: 90deg;
+    }
+
+    .steak-tick-icon {
+        width: 100%;
+        height: 30px;
+        background-color: #9cc96f;
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+    }
+
+    .steak-tick-icon-line-1 {
+        height: 4px;
+        width: 20px;
+        background-color: white;
+        position: relative;
+        top: 1px;
+        left: 13px;
+        transform-origin: middle center;
+        rotate: -45deg;
+    }
+    .steak-tick-icon-line-2 {
+        height: 4px;
+        width: 12px;
+        background-color: white;
+        position: relative;
+        top: 3px;
+        right: 12px;
+        transform-origin: middle end;
+        rotate: 45deg;
+    }
+
+    .myImg-after-start {
+        height: 120px;
+        border-radius: 1.5%;
+    }
+
+    .current-score {
+        width: 230px;
+        font-size: 50px;
+        color: white;
+    }
+
+    .profileChanger {
+        height: 84px;
+        width: 84px;
+        margin: 0 auto auto 0;
     }
 }
