@@ -10,6 +10,9 @@ This project is based on replicating the mini game Vision from [Chess.com](https
 
 # Original Game Screenshots
 
-Dashboard Image:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In-Game Image:<br>
-<img src="./images/dashboard_original.png" alt="Dashboard Image" width="400" />
-<img src="./images/inGame_original.png" alt="In-Game Image" width="400" />
+Dashboard Image:<br>
+<img src="./images/dashboard_original.png" width="400" />
+
+In-Game Image:<br>
+<img src="./images/inGame_original.png" width="400" />
+

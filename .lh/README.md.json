@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 94,
+            "activePatchIndex": 108,
             "patches": [
                 {
                     "date": 1696875712490,
@@ -384,6 +384,62 @@
                 {
                     "date": 1696877173847,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,20 +10,6 @@\n \r\n # Original Game Screenshots\r\n \r\n Dashboard Image:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In-Game Image:<br>\r\n-<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n-<img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n-# Vision\r\n-\r\n-This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions.\r\n-\r\n-# Rules\r\n-\r\n--   Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n--   You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n--   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n-\r\n-# Original Game Screenshots\r\n-Dashboard Image:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In-Game Image:<br>\r\n-  <img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n-  <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n+<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"400\" />\r\n+<img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"400\" />\r\n"
+                },
+                {
+                    "date": 1696877220734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,7 @@\n -   You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n-\r\n-Dashboard Image:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In-Game Image:<br>\r\n-<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"400\" />\r\n-<img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"400\" />\r\n+Dashboard Image:  =In-Game Image:<br>\r\n+  <img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n+  <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n"
+                },
+                {
+                    "date": 1696877226758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,8 @@\n -   You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n-Dashboard Image:  =In-Game Image:<br>\r\n-  <img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n-  <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n+\r\n+Dashboard Image:<br>\r\n+<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n+<img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n"
+                },
+                {
+                    "date": 1696877237578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,6 @@\n # Original Game Screenshots\r\n \r\n Dashboard Image:<br>\r\n <img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n+\r\n <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n"
+                },
+                {
+                    "date": 1696877248526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n+div\r\n Dashboard Image:<br>\r\n <img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n-\r\n <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n"
+                },
+                {
+                    "date": 1696877256036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n-div\r\n+<div><div>\r\n Dashboard Image:<br>\r\n <img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n"
+                },
+                {
+                    "date": 1696877261677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n-<div><div>\r\n+<div>\r\n Dashboard Image:<br>\r\n <img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n"
+                },
+                {
+                    "date": 1696877324849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,6 @@\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n-<div>\r\n Dashboard Image:<br>\r\n-<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n-<img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n+<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" /></div><img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n"
+                },
+                {
+                    "date": 1696877330619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n \r\n # Original Game Screenshots\r\n \r\n Dashboard Image:<br>\r\n-<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" /></div><img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n+<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" /><img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n"
+                },
+                {
+                    "date": 1696877336777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,8 @@\n \r\n # Original Game Screenshots\r\n \r\n Dashboard Image:<br>\r\n-<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" /><img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n+<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n+\r\n+\r\n+<img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n"
+                },
+                {
+                    "date": 1696877344502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,7 @@\n \r\n # Original Game Screenshots\r\n \r\n Dashboard Image:<br>\r\n-<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"300\" />\r\n+<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"400\" />\r\n \r\n-\r\n-<img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"300\" />\r\n+<img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"400\" />\r\n"
+                },
+                {
+                    "date": 1696877356558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,6 @@\n # Original Game Screenshots\r\n \r\n Dashboard Image:<br>\r\n <img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"400\" />\r\n-\r\n+In-Game Image:\r\n <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"400\" />\r\n"
+                },
+                {
+                    "date": 1696877362293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,7 @@\n # Original Game Screenshots\r\n \r\n Dashboard Image:<br>\r\n <img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"400\" />\r\n-In-Game Image:\r\n+\r\n+In-Game Image:<br>\r\n <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"400\" />\r\n"
+                },
+                {
+                    "date": 1696877381603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \r\n # Original Game Screenshots\r\n \r\n Dashboard Image:<br>\r\n-<img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" width=\"400\" />\r\n+<img src=\"./images/dashboard_original.png\" width=\"400\" />\r\n \r\n In-Game Image:<br>\r\n <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"400\" />\r\n"
+                },
+                {
+                    "date": 1696877396402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,6 @@\n Dashboard Image:<br>\r\n <img src=\"./images/dashboard_original.png\" width=\"400\" />\r\n \r\n In-Game Image:<br>\r\n-<img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" width=\"400\" />\r\n+<img src=\"./images/inGame_original.png\" width=\"400\" />\r\n+\r\n"
                 }
             ],
             "date": 1696875712490,
