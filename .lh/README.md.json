@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 136,
+            "activePatchIndex": 148,
             "patches": [
                 {
                     "date": 1696875712490,
@@ -552,6 +552,54 @@
                 {
                     "date": 1696877938745,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,5 +24,5 @@\n In-Game Image:<br>\r\n <img src=\"./images/inGame_Replica.png\" width=\"400\" />\r\n \r\n >[!NOTE]\r\n-> All the Functionalities of this replication are sameI added few improvements in my website you can click on the image to add your own, also the streak images will Continue rendering if the space is full \n\\ No newline at end of file\n+> All the Functionalities of this replication are sameI added few improvements in my website you can click on the image to add your own, also the streak images will continue rendering if the space is full \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696877976373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n-Dashboard Image:<br>\r\n+**Dashboard Image:<br>**\r\n <img src=\"./images/dashboard_original.png\" width=\"400\" />\r\n \r\n In-Game Image:<br>\r\n <img src=\"./images/inGame_original.png\" width=\"400\" />\r\n"
+                },
+                {
+                    "date": 1696877981991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n-**Dashboard Image:<br>**\r\n+Dashboard Image:<br>\r\n <img src=\"./images/dashboard_original.png\" width=\"400\" />\r\n \r\n In-Game Image:<br>\r\n <img src=\"./images/inGame_original.png\" width=\"400\" />\r\n"
+                },
+                {
+                    "date": 1696877988800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n-Dashboard Image:<br>\r\n+**Dashboard Image:**<br>\r\n <img src=\"./images/dashboard_original.png\" width=\"400\" />\r\n \r\n In-Game Image:<br>\r\n <img src=\"./images/inGame_original.png\" width=\"400\" />\r\n"
+                },
+                {
+                    "date": 1696877995732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n <img src=\"./images/inGame_original.png\" width=\"400\" />\r\n \r\n # My Replica's Screenshots\r\n \r\n-Dashboard Image:<br>\r\n+**Dashboard Image:**<br>\r\n <img src=\"./images/dashboard_Replica.png\" width=\"400\" />\r\n \r\n In-Game Image:<br>\r\n <img src=\"./images/inGame_Replica.png\" width=\"400\" />\r\n"
+                },
+                {
+                    "date": 1696878006337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \r\n **Dashboard Image:**<br>\r\n <img src=\"./images/dashboard_original.png\" width=\"400\" />\r\n \r\n-In-Game Image:<br>\r\n+**In-Game Image:**<br>\r\n <img src=\"./images/inGame_original.png\" width=\"400\" />\r\n \r\n # My Replica's Screenshots\r\n \r\n"
+                },
+                {
+                    "date": 1696878021432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions.\r\n \r\n # Rules\r\n \r\n--   Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n+-   Players will have **30 seconds** to accumulate as many points as possible by selecting the correct box positions.<br>\r\n -   You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n@@ -20,9 +20,9 @@\n \r\n **Dashboard Image:**<br>\r\n <img src=\"./images/dashboard_Replica.png\" width=\"400\" />\r\n \r\n-In-Game Image:<br>\r\n+**In-Game Image:**<br>\r\n <img src=\"./images/inGame_Replica.png\" width=\"400\" />\r\n \r\n >[!NOTE]\r\n > All the Functionalities of this replication are sameI added few improvements in my website you can click on the image to add your own, also the streak images will continue rendering if the space is full \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696878043860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n # Rules\r\n \r\n -   Players will have **30 seconds** to accumulate as many points as possible by selecting the correct box positions.<br>\r\n--   You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n+-   You will have only one opportunity to click on a box, whether it's the correct one or not, After each click, players will be presented with another random position to guess.<br>\r\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n"
+                },
+                {
+                    "date": 1696878054879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n # Rules\r\n \r\n -   Players will have **30 seconds** to accumulate as many points as possible by selecting the correct box positions.<br>\r\n--   You will have only one opportunity to click on a box, whether it's the correct one or not, After each click, players will be presented with another random position to guess.<br>\r\n+-   You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n"
+                },
+                {
+                    "date": 1696878060205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n \r\n # Rules\r\n \r\n -   Players will have **30 seconds** to accumulate as many points as possible by selecting the correct box positions.<br>\r\n--   You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n+-   You will have only one opportunity to click on a box, whether it's the correct one or not.\r\n+-  After each click, players will be presented with another random position to guess.<br>\r\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n"
+                },
+                {
+                    "date": 1696878069507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n # Rules\r\n \r\n -   Players will have **30 seconds** to accumulate as many points as possible by selecting the correct box positions.<br>\r\n -   You will have only one opportunity to click on a box, whether it's the correct one or not.\r\n--  After each click, players will be presented with another random position to guess.<br>\r\n+-  After each click, players will be presented with another **random** position to guess.<br>\r\n -   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n \r\n"
+                },
+                {
+                    "date": 1696878080665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,11 @@\n \r\n # Rules\r\n \r\n -   Players will have **30 seconds** to accumulate as many points as possible by selecting the correct box positions.<br>\r\n--   You will have only one opportunity to click on a box, whether it's the correct one or not.\r\n+-   You will have only **one** opportunity to click on a box, whether it's the correct one or not.\r\n -  After each click, players will be presented with another **random** position to guess.<br>\r\n--   After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n+-   After 30 seconds, you will be able to view your all-time best score and can **continue** playing.\r\n \r\n # Original Game Screenshots\r\n \r\n **Dashboard Image:**<br>\r\n"
+                },
+                {
+                    "date": 1696878087851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \r\n -   Players will have **30 seconds** to accumulate as many points as possible by selecting the correct box positions.<br>\r\n -   You will have only **one** opportunity to click on a box, whether it's the correct one or not.\r\n -  After each click, players will be presented with another **random** position to guess.<br>\r\n--   After 30 seconds, you will be able to view your all-time best score and can **continue** playing.\r\n+-   After 30 seconds, you will be able to view your **all-time best** score and can **continue** playing.\r\n \r\n # Original Game Screenshots\r\n \r\n **Dashboard Image:**<br>\r\n"
                 }
             ],
             "date": 1696875712490,
