@@ -16,3 +16,13 @@ Dashboard Image:<br>
 In-Game Image:<br>
 <img src="./images/inGame_original.png" width="400" />
 
+# My Replica's Screenshots
+
+Dashboard Image:<br>
+<img src="./images/dashboard_Replica.png" width="400" />
+
+In-Game Image:<br>
+<img src="./images/inGame_Replica.png" width="400" />
+
+>[!NOTE]
+> All the Functionalities of this replication are sameI added few improvements in my website you can click on the image to add your own, also the streak images will continue rendering if the space is full 
