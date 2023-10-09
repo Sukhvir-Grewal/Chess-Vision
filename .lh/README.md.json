@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 148,
+            "activePatchIndex": 152,
             "patches": [
                 {
                     "date": 1696875712490,
@@ -600,6 +600,22 @@
                 {
                     "date": 1696878087851,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \r\n -   Players will have **30 seconds** to accumulate as many points as possible by selecting the correct box positions.<br>\r\n -   You will have only **one** opportunity to click on a box, whether it's the correct one or not.\r\n -  After each click, players will be presented with another **random** position to guess.<br>\r\n--   After 30 seconds, you will be able to view your all-time best score and can **continue** playing.\r\n+-   After 30 seconds, you will be able to view your **all-time best** score and can **continue** playing.\r\n \r\n # Original Game Screenshots\r\n \r\n **Dashboard Image:**<br>\r\n"
+                },
+                {
+                    "date": 1696878417202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n # Vision\r\n-\r\n+[]\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions.\r\n \r\n # Rules\r\n \r\n"
+                },
+                {
+                    "date": 1696878424302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n # Vision\r\n-[]\r\n+[Link To Project]\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions.\r\n \r\n # Rules\r\n \r\n"
+                },
+                {
+                    "date": 1696878431163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n # Vision\r\n-[Link To Project]\r\n+[Link To Project]()<br>\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions.\r\n \r\n # Rules\r\n \r\n"
+                },
+                {
+                    "date": 1696878445140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n # Vision\r\n-[Link To Project]()<br>\r\n+[Link To Project](https://admirable-melba-35d381.netlify.app/)<br>\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions.\r\n \r\n # Rules\r\n \r\n"
                 }
             ],
             "date": 1696875712490,
