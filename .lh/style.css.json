@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1696327434341,
@@ -56,6 +56,10 @@
                 {
                     "date": 1696327672999,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,10 +139,10 @@\n         bottom: 10px;\r\n     }\r\n \r\n     .myImg-after-start {\r\n-        height: 120px;\r\n-        border-radius: 1.5%;\r\n+        height: 80px;\r\n+        border-radius: 5.5%;\r\n     }\r\n \r\n     select {\r\n         width: 215px;\r\n"
+                },
+                {
+                    "date": 1696874550987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -449,5 +449,5 @@\n         right: 10px;\r\n         transform-origin: middle end;\r\n         rotate: 45deg;\r\n     }\r\n-}\r\n+}=\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1696327434341,
