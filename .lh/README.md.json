@@ -3,11 +3,307 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 74,
             "patches": [
                 {
                     "date": 1696875712490,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1696875727550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +0,0 @@\n-sdfsdf\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875736533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+Welcome \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875742389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+Welcome \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875748061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,1 @@\n-Welcome \n Welcome \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875753110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-Welcome \n\\ No newline at end of file\n+Welcome Traveler\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875775108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-Welcome Traveler\n\\ No newline at end of file\n+# Welcome Traveler\r\n"
+                },
+                {
+                    "date": 1696875790046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n # Welcome Traveler\r\n+This project is based on replicating the \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875796314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the \n\\ No newline at end of file\n+This project is based on replicating the Famous \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875806790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the Famous \n\\ No newline at end of file\n+This project is based on replicating the Famous chess\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875814982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the Famous chess\n\\ No newline at end of file\n+This project is based on replicating the Famous Game \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875820495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the Famous Game \n\\ No newline at end of file\n+This project is based on replicating the mini \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875826987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the mini \n\\ No newline at end of file\n+This project is based on replicating the mini game in famous \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875834673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the mini game in famous \n\\ No newline at end of file\n+This project is based on replicating the mini game in famous ![Chess.com]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875851160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the mini game in famous ![Chess.com]\n\\ No newline at end of file\n+This project is based on replicating the mini game in famous ![Chess.com]{https://www.chess.com/vision}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875863412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the mini game in famous ![Chess.com]{https://www.chess.com/vision}\n\\ No newline at end of file\n+This project is based on replicating the mini game in famous ![Chess.com]{https://www.chess.com/vision)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875872223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the mini game in famous ![Chess.com]{https://www.chess.com/vision)\n\\ No newline at end of file\n+This project is based on replicating the mini game in famous [Chess.com](https://www.chess.com/vision)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875890813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the mini game in famous [Chess.com](https://www.chess.com/vision)\n\\ No newline at end of file\n+This project is based on replicating the mini game in famous [Chess.com/](https://www.chess.com/vision) \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875900628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the mini game in famous [Chess.com/](https://www.chess.com/vision) \n\\ No newline at end of file\n+This project is based on replicating the mini game in famous [Chess.com](https://www.chess.com/vision) \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875912950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+# Welcome Traveler\r\n+This project is based on replicating the mini game Vision in famous [Chess.com](https://www.chess.com/vision) \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875922038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the mini game Vision in famous [Chess.com](https://www.chess.com/vision) \n-# Welcome Traveler\r\n-This project is based on replicating the mini game in famous [Chess.com](https://www.chess.com/vision) \n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from famous [Chess.com](https://www.chess.com/vision) \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875927637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Welcome Traveler\r\n-This project is based on replicating the mini game Vision from famous [Chess.com](https://www.chess.com/vision) \n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from famous [Chess.com](https://www.chess.com/vision)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875963807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-# Welcome Traveler\r\n+# Vision\r\n This project is based on replicating the mini game Vision from famous [Chess.com](https://www.chess.com/vision)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875975438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Vision\r\n-This project is based on replicating the mini game Vision from famous [Chess.com](https://www.chess.com/vision)\n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875985739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Vision\r\n-This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision)\n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player have to re\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696875993066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Vision\r\n-This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player have to re\n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player have \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876014656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Vision\r\n-This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player have \n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice rememb\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876020981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Vision\r\n-This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice rememb\n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice Remembering\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876028980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Vision\r\n-This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice Remembering\n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876045740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Vision\r\n-This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board  \n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876068903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n # Vision\r\n-This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions  \n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876075462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n # Vision\r\n-This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions \n\\ No newline at end of file\n+This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n+ \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876085693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n- \n\\ No newline at end of file\n+\r\n+# Rules \r\n"
+                },
+                {
+                    "date": 1696876096754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n+Player will have \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876102237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n-Player will have \n\\ No newline at end of file\n+Player will have 30 seconds to \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876111732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n-Player will have 30 seconds to \n\\ No newline at end of file\n+Player will have 30 seconds to get as many as \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876117398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n-Player will have 30 seconds to get as many as \n\\ No newline at end of file\n+Player will have 30 seconds to get as many as points possible by \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876124079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n-Player will have 30 seconds to get as many as points possible by \n\\ No newline at end of file\n+Player will have 30 seconds to get as many as points possible by clicking on \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876131217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n-Player will have 30 seconds to get as many as points possible by clicking on \n\\ No newline at end of file\n+Player will have 30 seconds to get as many as points possible by clicking on correct box nu\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876136282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n-Player will have 30 seconds to get as many as points possible by clicking on correct box nu\n\\ No newline at end of file\n+Player will have 30 seconds to get as many as points possible by clicking on correct box position \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876152178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n-Player will have 30 seconds to get as many as points possible by clicking on correct box position \n\\ No newline at end of file\n+Player will have 30 seconds to get as many as points possible by clicking on correct box position.\r\n"
+                },
+                {
+                    "date": 1696876158510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n-Player will have 30 seconds to get as many as points possible by clicking on correct box position.\r\n+Player will have 30 seconds to get as many as points possible by clicking on correct box position.<br>\r\n+\r\n"
+                },
+                {
+                    "date": 1696876173091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n Player will have 30 seconds to get as many as points possible by clicking on correct box position.<br>\r\n-\r\n+After getting \r\n"
+                },
+                {
+                    "date": 1696876188935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n Player will have 30 seconds to get as many as points possible by clicking on correct box position.<br>\r\n-After getting \r\n+You will have only one chance to \r\n"
+                },
+                {
+                    "date": 1696876198711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n Player will have 30 seconds to get as many as points possible by clicking on correct box position.<br>\r\n-You will have only one chance to \r\n+You will have only one chance to click on box either correct or \r\n"
+                },
+                {
+                    "date": 1696876217365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n Player will have 30 seconds to get as many as points possible by clicking on correct box position.<br>\r\n-You will have only one chance to click on box either correct or \r\n+You will have only one chance to click on box either correct or wrong after every click \r\n"
+                },
+                {
+                    "date": 1696876225604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n Player will have 30 seconds to get as many as points possible by clicking on correct box position.<br>\r\n-You will have only one chance to click on box either correct or wrong after every click \r\n+You will have only one chance to click on box either correct or wrong after every click player will see another \r\n"
+                },
+                {
+                    "date": 1696876240988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n \r\n # Rules \r\n Player will have 30 seconds to get as many as points possible by clicking on correct box position.<br>\r\n-You will have only one chance to click on box either correct or wrong after every click player will see another \r\n+You will have only one chance to click on box either correct or wrong after every click player will see another random posio\r\n"
+                },
+                {
+                    "date": 1696876291232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n # Vision\r\n-This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the board positions. \r\n+This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions. \r\n \r\n # Rules \r\n Player will have 30 seconds to get as many as points possible by clicking on correct box position.<br>\r\n-You will have only one chance to click on box either correct or wrong after every click player will see another random posio\r\n+You will have only one chance to click on box either correct or wrong after every click player will see another random position to guess\r\n"
+                },
+                {
+                    "date": 1696876303357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions. \r\n \r\n # Rules \r\n-Player will have 30 seconds to get as many as points possible by clicking on correct box position.<br>\r\n+v<br>\r\n You will have only one chance to click on box either correct or wrong after every click player will see another random position to guess\r\n"
+                },
+                {
+                    "date": 1696876320037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions. \r\n \r\n # Rules \r\n-v<br>\r\n-You will have only one chance to click on box either correct or wrong after every click player will see another random position to guess\r\n+Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n+You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.\r\n"
+                },
+                {
+                    "date": 1696876333133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,4 +3,5 @@\n \r\n # Rules \r\n Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.\r\n+You \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876339092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions. \r\n \r\n # Rules \r\n Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n-You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.\r\n-You \n\\ No newline at end of file\n+You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n+you \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876349272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \r\n # Rules \r\n Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n-you \n\\ No newline at end of file\n+You will be able to see  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876356834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \r\n # Rules \r\n Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n-You will be able to see  \n\\ No newline at end of file\n+You will be able to see your best  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876362743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \r\n # Rules \r\n Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n-You will be able to see your best  \n\\ No newline at end of file\n+You will be able to see your best    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876380655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \r\n # Rules \r\n Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n-You will be able to see your best    \n\\ No newline at end of file\n+You will be able to see your all time best after  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876392813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \r\n # Rules \r\n Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n-You will be able to see your all time best after  \n\\ No newline at end of file\n+You will be able to see your all time best after 30 secs,  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876400759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \r\n # Rules \r\n Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n-You will be able to see your all time best after 30 secs,  \n\\ No newline at end of file\n+You will be able to see your all time best after 30 secs, and can continue playing  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876431260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \r\n # Rules \r\n Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n-You will be able to see your all time best after 30 secs, and can continue playing  \n\\ No newline at end of file\n+After 30 seconds, you will be able to view your all-time best score and continue playing.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876457488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \r\n # Rules \r\n Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n-After 30 seconds, you will be able to view your all-time best score and continue playing.\n\\ No newline at end of file\n+After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n"
+                },
+                {
+                    "date": 1696876462971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n # Vision\r\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions. \r\n \r\n # Rules \r\n-Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n+* Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n"
+                },
+                {
+                    "date": 1696876470867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n This project is based on replicating the mini game Vision from [Chess.com](https://www.chess.com/vision). where player can practice remembering the chessboard positions. \r\n \r\n # Rules \r\n * Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n-You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n-After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n+* You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n+* After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n"
+                },
+                {
+                    "date": 1696876544216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,4 +4,6 @@\n # Rules \r\n * Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n * You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n+\r\n+# \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876556793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,5 @@\n * Players will have 30 seconds to accumulate as many points as possible by selecting the correct box positions.<br>\r\n * You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n-# \n\\ No newline at end of file\n+# Original Game Screenshots\r\n"
+                },
+                {
+                    "date": 1696876584286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,4 +6,5 @@\n * You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n+![Alt text](image.png)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876628809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n * You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n-![Alt text](image.png)\n\\ No newline at end of file\n+![Alt text](.png)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876636726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n * You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n-![Alt text](.png)\n\\ No newline at end of file\n+![Alt text](./)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876643009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n * You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n-![Alt text](./)\n\\ No newline at end of file\n+![Alt text](./images/dashboard_original.png)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876683172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,6 @@\n * You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n-![Alt text](./images/dashboard_original.png)\n\\ No newline at end of file\n+![Alt text](./images/dashboard_original.png)\r\n+![Alt text](image.png)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876698054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,6 @@\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n ![Alt text](./images/dashboard_original.png)\r\n-![Alt text](image.png)\n\\ No newline at end of file\n+![Alt text](image.png)\r\n+![Alt text](image-1.png)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876703940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,5 @@\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n ![Alt text](./images/dashboard_original.png)\r\n-![Alt text](image.png)\r\n ![Alt text](image-1.png)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876732439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n ![Alt text](./images/dashboard_original.png)\r\n-![Alt text](image-1.png)\n\\ No newline at end of file\n+![Alt text](inGame.png)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876775555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n ![Alt text](./images/dashboard_original.png)\r\n-![Alt text](inGame.png)\n\\ No newline at end of file\n+![Alt text](./image.png/inGame_original.png)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876787301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n ![Alt text](./images/dashboard_original.png)\r\n-![Alt text](./image.png/inGame_original.png)\n\\ No newline at end of file\n+![Alt text](./image.png/)\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1696875712490,
