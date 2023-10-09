@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 74,
+            "activePatchIndex": 75,
             "patches": [
                 {
                     "date": 1696875712490,
@@ -304,6 +304,10 @@
                 {
                     "date": 1696876787301,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n ![Alt text](./images/dashboard_original.png)\r\n-![Alt text](./image.png/inGame_original.png)\n\\ No newline at end of file\n+![Alt text](./image.png/)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1696876861854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,11 @@\n * You will have only one opportunity to click on a box, whether it's the correct one or not. After each click, players will be presented with another random position to guess.<br>\r\n * After 30 seconds, you will be able to view your all-time best score and can continue playing.\r\n \r\n # Original Game Screenshots\r\n-![Alt text](./images/dashboard_original.png)\r\n-![Alt text](./image.png/)\n\\ No newline at end of file\n+<span style=\"display: inline-block; margin-right: 20px;\">\r\n+  <img src=\"./images/dashboard_original.png\" alt=\"Dashboard Image\" />\r\n+</span>\r\n+\r\n+<span style=\"display: inline-block; margin-right: 20px;\">\r\n+  <img src=\"./images/inGame_original.png\" alt=\"In-Game Image\" />\r\n+</span>\r\n"
                 }
             ],
             "date": 1696875712490,

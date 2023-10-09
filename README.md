@@ -7,5 +7,10 @@ This project is based on replicating the mini game Vision from [Chess.com](https
 * After 30 seconds, you will be able to view your all-time best score and can continue playing.
 
 # Original Game Screenshots
-![Alt text](./images/dashboard_original.png)
-![Alt text](./image.png/../images/inGame_original.png)
+<span style="display: inline-block; margin-right: 20px;">
+  <img src="./images/dashboard_original.png" alt="Dashboard Image" />
+</span>
+
+<span style="display: inline-block; margin-right: 20px;">
+  <img src="./images/inGame_original.png" alt="In-Game Image" />
+</span>
